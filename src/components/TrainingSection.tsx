@@ -1,3 +1,4 @@
+
 import React from 'react';
 const TrainingSection = () => {
   return <div className="bg-gradient-to-b from-impacto-black to-impacto-darkgray">
