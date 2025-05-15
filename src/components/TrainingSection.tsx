@@ -1,9 +1,6 @@
-
 import React from 'react';
-
 const TrainingSection = () => {
-  return (
-    <div className="bg-gradient-to-b from-impacto-black to-impacto-darkgray">
+  return <div className="bg-gradient-to-b from-impacto-black to-impacto-darkgray">
       <div className="section-container">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
@@ -54,11 +51,7 @@ const TrainingSection = () => {
               </div>
               
               <div className="md:w-1/2">
-                <img 
-                  src="https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                  alt="Treinamento Tático" 
-                  className="rounded-md shadow-lg border-2 border-impacto-gray"
-                />
+                <img alt="Treinamento Tático" className="rounded-md shadow-lg border-2 border-impacto-gray" src="https://igrejahope.com.br/wp-content/uploads/2025/05/Design-sem-nome.jpg" />
                 
                 <div className="mt-6 bg-impacto-red p-4 rounded-md">
                   <p className="text-white font-military text-center text-lg">
@@ -70,8 +63,6 @@ const TrainingSection = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default TrainingSection;
