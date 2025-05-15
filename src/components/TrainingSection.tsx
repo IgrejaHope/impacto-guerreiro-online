@@ -5,7 +5,7 @@ const TrainingSection = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-10">
-              <span className="inline-block text-3xl mb-3">📚</span>
+              <span className="inline-block text-3xl mb-3">🪖</span>
               <h2 className="section-title">Como funciona o IMPACTO?</h2>
             </div>
             
