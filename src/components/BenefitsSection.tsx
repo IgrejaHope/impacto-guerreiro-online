@@ -2,11 +2,13 @@
 import React from 'react';
 import { Brain, Eye, Award, Flag, Leaf } from 'lucide-react';
 
-const BenefitItem = ({ icon: Icon, title, description }: { 
-  icon: React.ElementType; 
-  title: string; 
-  description: string; 
-}) => {
+interface BenefitItemProps {
+  icon: React.ElementType;
+  title: string;
+  description: string;
+}
+
+const BenefitItem = ({ icon: Icon, title, description }: BenefitItemProps) => {
   return (
     <div className="benefit-card">
       <div className="flex items-start gap-4">
