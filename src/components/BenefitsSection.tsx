@@ -3,9 +3,9 @@ import React from 'react';
 import { Brain, Eye, Award, Flag, Leaf } from 'lucide-react';
 
 const BenefitItem = ({ icon: Icon, title, description }: { 
-  icon: React.ElementType, 
-  title: string, 
-  description: string 
+  icon: React.ElementType; 
+  title: string; 
+  description: string; 
 }) => {
   return (
     <div className="benefit-card">
