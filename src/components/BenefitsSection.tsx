@@ -29,7 +29,7 @@ const BenefitsSection = () => {
     {
       icon: Brain,
       title: "🧠 Comando das Escolhas",
-      description: "Decida com sabedoria, elimine o "dedo podre" e tome o controle de sua vida."
+      description: "Decida com sabedoria, elimine o \"dedo podre\" e tome o controle de sua vida."
     },
     {
       icon: Eye,
