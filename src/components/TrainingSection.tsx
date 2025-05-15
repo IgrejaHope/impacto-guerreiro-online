@@ -39,11 +39,11 @@ const TrainingSection = () => {
                     <div className="flex flex-col sm:flex-row justify-between gap-4">
                       <div>
                         <span className="text-gray-400">📅 Duração:</span>
-                        <p className="font-military text-white">8 Semanas de Treinamento Intensivo</p>
+                        <p className="font-military text-white">3 dias de Treinamento Intensivo</p>
                       </div>
                       <div>
-                        <span className="text-gray-400">🌐 Formato:</span>
-                        <p className="font-military text-white">100% Online com Suporte</p>
+                        <span className="text-gray-400">🚹 Formato:</span>
+                        <p className="font-military text-white">100% Presencial</p>
                       </div>
                     </div>
                   </div>
