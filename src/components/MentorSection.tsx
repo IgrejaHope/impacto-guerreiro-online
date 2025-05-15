@@ -1,9 +1,6 @@
-
 import React from 'react';
-
 const MentorSection = () => {
-  return (
-    <div className="section-container bg-impacto-darkgray">
+  return <div className="section-container bg-impacto-darkgray">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
@@ -15,11 +12,7 @@ const MentorSection = () => {
             <div className="md:w-2/5">
               <div className="relative">
                 <div className="absolute inset-0 -m-3 bg-impacto-red opacity-20 rounded-lg transform rotate-3"></div>
-                <img 
-                  src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&auto=format&fit=crop&w=1340&q=80" 
-                  alt="Cesar Signoretti Jr." 
-                  className="rounded-lg shadow-lg relative z-10 border-2 border-impacto-gray"
-                />
+                <img alt="Cesar Signoretti Jr." className="rounded-lg shadow-lg relative z-10 border-2 border-impacto-gray" src="https://igrejahope.com.br/wp-content/uploads/2025/05/name.jpg" />
               </div>
             </div>
             
@@ -66,8 +59,6 @@ const MentorSection = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default MentorSection;
