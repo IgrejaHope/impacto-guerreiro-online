@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Quantico:wght@400;700&family=Barlow:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 0 69% 27%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -35,19 +38,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -96,6 +92,40 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-impacto-black text-white font-body;
+  }
+
+  h1, h2, h3 {
+    @apply font-stencil tracking-wider;
+  }
+}
+
+@layer components {
+  .impacto-button {
+    @apply bg-impacto-red hover:bg-impacto-darkred text-white font-military font-bold py-4 px-8 rounded-md shadow-md transition-all duration-300 uppercase tracking-wider flex items-center justify-center gap-2;
+  }
+  
+  .impacto-button:hover {
+    @apply shadow-lg transform -translate-y-1;
+  }
+  
+  .impacto-button-glow {
+    @apply impacto-button animate-pulse-glow;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-stencil text-white mb-8 text-center uppercase tracking-wider;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 py-16 md:py-24;
+  }
+  
+  .benefit-card {
+    @apply bg-impacto-darkgray p-6 rounded-md shadow-md border border-impacto-gray hover:border-impacto-bronze transition-all duration-300;
+  }
+  
+  .benefit-card:hover {
+    @apply transform -translate-y-1 shadow-xl;
   }
 }

@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,22 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for IMPACTO
+				impacto: {
+					red: '#8B0000',
+					darkred: '#5A0000',
+					black: '#121212',
+					gray: '#333333',
+					darkgray: '#222222',
+					bronze: '#CD7F32',
+					gold: '#D4AF37',
 				}
+			},
+			fontFamily: {
+				stencil: ['"Black Ops One"', 'cursive'],
+				military: ['"Quantico"', 'sans-serif'],
+				body: ['"Barlow"', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +100,22 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-glow': {
+					'0%, 100%': {
+						opacity: '1',
+						boxShadow: '0 0 0 rgba(139, 0, 0, 0.4)'
+					},
+					'50%': {
+						opacity: '0.8',
+						boxShadow: '0 0 20px rgba(139, 0, 0, 0.6)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-glow': 'pulse-glow 2s infinite'
 			}
 		}
 	},
