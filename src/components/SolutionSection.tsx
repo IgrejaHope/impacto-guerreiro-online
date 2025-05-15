@@ -1,9 +1,6 @@
-
 import React from 'react';
-
 const SolutionSection = () => {
-  return (
-    <div className="section-container bg-gradient-to-b from-impacto-darkgray to-impacto-black">
+  return <div className="section-container bg-gradient-to-b from-impacto-darkgray to-impacto-black">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
@@ -15,11 +12,7 @@ const SolutionSection = () => {
           
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="md:w-1/2">
-              <img 
-                src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                alt="Transformação Impacto" 
-                className="rounded-md shadow-lg border-2 border-impacto-gray"
-              />
+              <img alt="Transformação Impacto" className="rounded-md shadow-lg border-2 border-impacto-gray" src="https://igrejahope.com.br/wp-content/uploads/2025/05/469449130_18266193502268388_5369691821439303134_n.jpg" />
             </div>
             
             <div className="md:w-1/2">
@@ -39,8 +32,6 @@ const SolutionSection = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default SolutionSection;
