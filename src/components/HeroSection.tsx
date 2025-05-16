@@ -1,6 +1,7 @@
 
 import React from 'react';
-import { Shield } from 'lucide-react';
+import { Shield, Calendar } from 'lucide-react';
+import CountdownTimer from './CountdownTimer';
 
 const HeroSection = () => {
   return (
@@ -37,6 +38,18 @@ const HeroSection = () => {
           >
             <Shield className="w-5 h-5" /> ALISTE-SE AGORA NO TREINAMENTO IMPACTO!
           </a>
+          
+          {/* Data do evento */}
+          <div className="mt-6 text-xl md:text-2xl text-impacto-bronze font-military flex items-center justify-center gap-2">
+            <Calendar className="w-5 h-5" /> 
+            <span>📅 20, 21 e 22 de Junho de 2025</span>
+          </div>
+          
+          {/* Contador regressivo */}
+          <div className="mt-4 mb-10">
+            <p className="text-white text-sm mb-2 font-military">TEMPO RESTANTE PARA INSCRIÇÕES:</p>
+            <CountdownTimer targetDate="2025-06-19T23:59:00" />
+          </div>
         </div>
       </div>
     </div>
