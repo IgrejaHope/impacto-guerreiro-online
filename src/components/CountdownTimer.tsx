@@ -54,21 +54,21 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
   }
 
   return (
-    <div className="flex flex-wrap justify-center gap-3 md:gap-4">
-      <div className="flex flex-col items-center bg-impacto-darkgray bg-opacity-70 py-2 px-4 md:py-3 md:px-6 rounded-md">
-        <span className="text-2xl md:text-3xl font-stencil text-white">{formatTime(timeLeft.days)}</span>
+    <div className="flex flex-row flex-nowrap justify-center gap-1 md:gap-4">
+      <div className="flex flex-col items-center bg-impacto-darkgray bg-opacity-70 py-1 px-2 md:py-3 md:px-6 rounded-md">
+        <span className="text-lg md:text-3xl font-stencil text-white">{formatTime(timeLeft.days)}</span>
         <span className="text-xs md:text-sm text-gray-300 font-military uppercase">Dias</span>
       </div>
-      <div className="flex flex-col items-center bg-impacto-darkgray bg-opacity-70 py-2 px-4 md:py-3 md:px-6 rounded-md">
-        <span className="text-2xl md:text-3xl font-stencil text-white">{formatTime(timeLeft.hours)}</span>
+      <div className="flex flex-col items-center bg-impacto-darkgray bg-opacity-70 py-1 px-2 md:py-3 md:px-6 rounded-md">
+        <span className="text-lg md:text-3xl font-stencil text-white">{formatTime(timeLeft.hours)}</span>
         <span className="text-xs md:text-sm text-gray-300 font-military uppercase">Horas</span>
       </div>
-      <div className="flex flex-col items-center bg-impacto-darkgray bg-opacity-70 py-2 px-4 md:py-3 md:px-6 rounded-md">
-        <span className="text-2xl md:text-3xl font-stencil text-white">{formatTime(timeLeft.minutes)}</span>
+      <div className="flex flex-col items-center bg-impacto-darkgray bg-opacity-70 py-1 px-2 md:py-3 md:px-6 rounded-md">
+        <span className="text-lg md:text-3xl font-stencil text-white">{formatTime(timeLeft.minutes)}</span>
         <span className="text-xs md:text-sm text-gray-300 font-military uppercase">Minutos</span>
       </div>
-      <div className="flex flex-col items-center bg-impacto-darkgray bg-opacity-70 py-2 px-4 md:py-3 md:px-6 rounded-md">
-        <span className="text-2xl md:text-3xl font-stencil text-white">{formatTime(timeLeft.seconds)}</span>
+      <div className="flex flex-col items-center bg-impacto-darkgray bg-opacity-70 py-1 px-2 md:py-3 md:px-6 rounded-md">
+        <span className="text-lg md:text-3xl font-stencil text-white">{formatTime(timeLeft.seconds)}</span>
         <span className="text-xs md:text-sm text-gray-300 font-military uppercase">Segundos</span>
       </div>
     </div>
