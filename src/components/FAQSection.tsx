@@ -11,7 +11,7 @@ const FAQSection = () => {
   const faqs = [
     {
       question: "É só para homens?",
-      answer: "Não, o IMPACTO é para todos os que querem viver o propósito com disciplina e fé."
+      answer: "Sim, o IMPACTO é exclusivo para homens. O treinamento foi desenvolvido para forjar a identidade, o caráter e a missão do homem segundo os princípios do Reino de Deus."
     },
     {
       question: "Tem experiência militar?",
