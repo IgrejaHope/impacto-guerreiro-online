@@ -33,9 +33,9 @@ const HeroSection = () => {
             href="https://pay.kiwify.com.br/JR6ebBr"
             target="_blank" 
             rel="noopener noreferrer"
-            className="impacto-button-glow text-xl mt-8 mx-auto inline-flex items-center justify-center"
+            className="impacto-button-glow text-sm md:text-lg mt-8 mx-auto inline-flex items-center justify-center"
           >
-            <Shield className="w-6 h-6" /> ALISTE-SE AGORA NO TREINAMENTO IMPACTO!
+            <Shield className="w-5 h-5" /> ALISTE-SE AGORA NO TREINAMENTO IMPACTO!
           </a>
         </div>
       </div>

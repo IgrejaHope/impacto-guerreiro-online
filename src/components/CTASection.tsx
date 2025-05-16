@@ -19,9 +19,9 @@ const CTASection = () => {
             href="https://pay.kiwify.com.br/JR6ebBr"
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-white hover:bg-gray-100 text-impacto-red text-xl font-military font-bold py-4 px-8 rounded-md shadow-md hover:shadow-lg transition-all duration-300 uppercase tracking-wider flex items-center justify-center gap-2 mx-auto inline-flex"
+            className="bg-white hover:bg-gray-100 text-impacto-red text-sm md:text-lg font-military font-bold py-4 px-8 rounded-md shadow-md hover:shadow-lg transition-all duration-300 uppercase tracking-wider flex items-center justify-center gap-2 mx-auto inline-flex"
           >
-            <Shield className="w-6 h-6" /> QUERO ME TORNAR UM GUERREIRO DE CRISTO!
+            <Shield className="w-5 h-5" /> QUERO ME TORNAR UM GUERREIRO DE CRISTO!
           </a>
         </div>
       </div>
