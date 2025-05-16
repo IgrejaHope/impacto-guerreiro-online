@@ -22,10 +22,6 @@ const FAQSection = () => {
       answer: "Sim! Você terá acesso a um grupo fechado, mentorias e acompanhamento durante todo o treinamento."
     },
     {
-      question: "É presencial ou online?",
-      answer: "O IMPACTO é 100% online, o que permite que você participe de qualquer lugar e adapte os horários à sua rotina."
-    },
-    {
       question: "Qual o valor do investimento?",
       answer: "O investimento para o treinamento IMPACTO é de apenas R$150 por pessoa, um valor acessível para a transformação que você experimentará."
     },
