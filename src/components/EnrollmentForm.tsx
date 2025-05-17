@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { useToast } from "@/components/ui/use-toast";
 import { Shield } from 'lucide-react';
@@ -34,7 +35,7 @@ const EnrollmentForm = () => {
 
     // Simulate redirect to payment page
     setTimeout(() => {
-      alert('Esta é uma simulação. Aqui você seria redirecionado para a página de pagamento.');
+      window.location.href = "https://checkout.diypay.com.br/pay/impacto-igreja-hope/";
     }, 2000);
   };
   return <section id="enrollment" className="section-container bg-impacto-darkgray py-16">
