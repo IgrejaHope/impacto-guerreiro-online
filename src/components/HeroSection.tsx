@@ -26,7 +26,7 @@ const HeroSection = () => {
             <span className="inline-block">🛡️</span> Desenvolva a mente, o espírito e a disciplina necessários para revolucionar sua geração.
           </h2>
           
-          <a href="https://checkout.diypay.com.br/pay/impacto-igreja-hope/" target="_blank" rel="noopener noreferrer" className="impacto-button-glow text-sm md:text-lg mt-8 mx-auto inline-flex items-center justify-center">
+          <a href="https://pay.kiwify.com.br/SbNYMVS" target="_blank" rel="noopener noreferrer" className="impacto-button-glow text-sm md:text-lg mt-8 mx-auto inline-flex items-center justify-center">
             <Shield className="w-5 h-5" /> ALISTE-SE AGORA NO TREINAMENTO IMPACTO!
           </a>
           

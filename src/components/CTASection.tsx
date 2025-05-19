@@ -16,7 +16,7 @@ const CTASection = () => {
           </p>
           
           <a 
-            href="https://checkout.diypay.com.br/pay/impacto-igreja-hope/"
+            href="https://pay.kiwify.com.br/SbNYMVS"
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-white hover:bg-gray-100 text-impacto-red text-sm md:text-lg font-military font-bold py-4 px-8 rounded-md shadow-md hover:shadow-lg transition-all duration-300 uppercase tracking-wider flex items-center justify-center gap-2 mx-auto inline-flex"

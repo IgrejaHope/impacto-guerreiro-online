@@ -35,7 +35,7 @@ const EnrollmentForm = () => {
 
     // Simulate redirect to payment page
     setTimeout(() => {
-      window.location.href = "https://checkout.diypay.com.br/pay/impacto-igreja-hope/";
+      window.location.href = "https://pay.kiwify.com.br/SbNYMVS";
     }, 2000);
   };
   return <section id="enrollment" className="section-container bg-impacto-darkgray py-16">
